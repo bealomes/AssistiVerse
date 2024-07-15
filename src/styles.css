@@ -1,0 +1,146 @@
+/* Base styles */
+body {
+    background-color: #f7fafc;
+    font-family: Arial, sans-serif;
+}
+
+/* Utility classes */
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.bg-blue-800 {
+    background-color: #239BB5; 
+}
+
+.text-white {
+    color: #fff;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+/* Component styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.bg-blue-principal {
+    background-color: #239BB5;
+}
+
+.bg-blue-500 {
+    background-color: #239BB5;
+}
+
+.bg-blue-700 {
+    background-color: #2b6cb0;
+}
+
+.bg-blue-600 {
+    background-color: #3182ce;
+}
+
+.bg-blue-300 {
+    background-color: #90cdf4;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+
+.bg-gray-400 {
+    background-color: #cbd5e0;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+/*NavBar Styles*/
+nav{
+    border: none;
+    border-radius: 0.4rem; 
+}
+
+/* Estilo para alinhar itens centralmente na flex container */
+.flex.items-center {
+    align-items: center;
+}
+
+/* Margem à direita para o ícone de menu */
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+
+/* Estilo para o título na navegação */
+.nav-title {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+/* Button styles */
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Estilos do carrossel */
+.carousel {
+    width: 100%;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
